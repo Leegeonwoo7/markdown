@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<h3>마크다운 형식의 요구사항 입력</h3>
+<form th:method="post" action="/markdown/save">
+    <textarea name="content" id="markdown" cols="50" rows="50">
+
+    </textarea>
+    <button type="submit">제출</button>
+</form>
+</body>
+</html>
